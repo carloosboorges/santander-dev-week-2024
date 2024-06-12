@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://${PHOST}:${PGPORT}/${PGDATABASE}
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    hibernate:
+      ddl-auto: create
